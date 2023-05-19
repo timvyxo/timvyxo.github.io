@@ -1,5 +1,13 @@
 .header {
     display: inline-block;
+    background-color: gray;
+    color: aquamarine;
+    font-size: 80px;
+}
+
+body {
+    background-color: black;
+    color: white;
 }
 
 * {

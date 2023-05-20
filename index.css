@@ -1,15 +1,40 @@
-.header {
-    display: inline-block;
-    background-color: gray;
-    color: aquamarine;
-    font-size: 80px;
+html {
+    background-color: #2f2f2f;
+    text-align: center;
+    font-family: 'Oswald';
 }
 
-body {
-    background-color: black;
+table {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #545454;
+    margin: auto;
+    width: 700px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h1 {
+    color: #ff5f00;
+}
+
+h2 {
+    color: #00bcd4;
+}
+
+footer {
+    margin-top: 20px;
+    color: #ff5f00;
+}
+
+.tag {
+    color: #00bcd4;
+}
+
+.th {
     color: white;
-}
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }

@@ -17,22 +17,28 @@ html {
 
 .nav li {
     display: inline;
-}
-
-.nav-text li+li::before {
-    content: "/";
-    padding: 5px;
+    margin-left: -20px;
+    margin-right: 30px;
 }
 
 .nav-text a{
     text-decoration: none;
     color: white;
+    background-color: #2f2f2f;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.nav-text a:hover {
+    background-color: #ff5f00;
+    transition: all 1s ease-out;
+    font-size: 22px;
 }
 
 h1.title {
     color: #ff5f00;
     margin-top: 80px;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
 }
 

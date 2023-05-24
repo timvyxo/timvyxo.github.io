@@ -1,0 +1,42 @@
+html {
+    background-color: #2f2f2f;
+    font-family: 'Oswald';
+}
+
+.nav {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    position: flex;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav-text li+li::before {
+    content: "/";
+    padding: 5px;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: white;
+}
+
+h1.title {
+    color: #ff5f00;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    color: #ff5f00;
+}

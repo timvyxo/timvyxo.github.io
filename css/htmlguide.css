@@ -1,7 +1,5 @@
 html {
-    background-color: #2f2f2f;
     text-align: center;
-    font-family: 'Oswald';
 }
 
 table {
@@ -17,18 +15,11 @@ td, th {
     padding: 10px;
 }
 
-h1 {
-    color: #ff5f00;
-}
 
 h2 {
     color: #00bcd4;
 }
 
-footer {
-    margin-top: 20px;
-    color: #ff5f00;
-}
 
 .tag {
     color: #00bcd4;

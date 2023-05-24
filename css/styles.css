@@ -12,11 +12,10 @@ html {
     left: 0;
     right: 0;
     height: 80px;
-    position: flex;
 }
 
 .nav li {
-    display: inline;
+    display: inline-flex;
     margin-left: -20px;
     margin-right: 30px;
 }
@@ -45,4 +44,5 @@ h1.title {
 footer {
     margin-top: 20px;
     color: #ff5f00;
+    text-align: center;
 }
